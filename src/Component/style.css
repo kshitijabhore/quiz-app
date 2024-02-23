@@ -1,0 +1,135 @@
+body {
+  background-color: #e0ffcd;
+}
+
+.styleOption {
+  font-size: 1.3rem;
+  font-family: "Kanit", sans-serif;
+}
+
+.styleOption input {
+  margin-right: 10px;
+  width: 18px;
+  height: 16px;
+}
+
+.navbar {
+  background: #b6afeb;
+}
+.navBarHeading {
+  font-family: "Merriweather", serif;
+}
+
+.queBox {
+  margin-left: 5em;
+}
+
+.queNumStyle {
+  font-variant-numeric: diagonal-fractions;
+  font-size: 2em;
+}
+
+.styleQue {
+  font-size: 1.5rem;
+}
+
+.showRes {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 2em;
+  width: 21rem;
+  margin-left: 32em;
+  background: #d3d3d363;
+}
+
+.showRes .heading {
+  font-size: 1.5em;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.showRes ul li {
+  list-style-type: none;
+  padding: 0.5em;
+  font-weight: 500;
+  font-family: "Merriweather", serif;
+}
+
+.showRes ul li span {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.buttonShow {
+  text-align: end;
+  margin: 1em;
+}
+
+.buttonShow .previewBtn{
+  margin-right: 11em;
+}
+
+
+.buttonShow .previewBtn{
+  text-align: left;
+}
+
+.correctAns {
+  font-size: 1.3em;
+  color: green;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.wrongAns {
+  font-size: 1.3em;
+  color: red;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.heading h1 {
+  font-size: 2.5em;
+  color: #a151c9;
+}
+
+.heading h3 {
+  font-size: 1.5rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.quizTopic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizTopic ul {
+  list-style-type: none;
+}
+
+.quizTopic ul li {
+  border: 1px solid #cf81cf;
+  padding: 0.9rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.quizTopic ul li:hover {
+  color: #da3381;
+}
